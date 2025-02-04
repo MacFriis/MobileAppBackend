@@ -1,8 +1,12 @@
+using Microsoft.AspNetCore.Identity;
+
 namespace Shared.Models;
 
-public class DashboardUser
+public class AppUser: IdentityUser
 {
-    public PersonNameComponents NameCom { get; set; } = new();
+    public string? RefreshToken;
+    public DateTimeOffset RefreshTokenExpiryTime;
+    public PersonNameComponents NameComponents { get; set; } = new();
     public PostalAddress? Address { get; set; }
     public NotificationSetting? NotificationSetting { get; set; }
 }

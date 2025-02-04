@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Per Friis",
+  "classifications": [ "Web", "API", "Blazor" ],
+  "identity": "MobilBackend.Template",
+  "name": "Mobile Backend with api and web",
+  "shortName": "mobilebackend",
+  "sourceName": "MobileBackend",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "exclude": [
+    "**/bin",
+    "**/obj"
+  ]
+}

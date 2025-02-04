@@ -1,4 +1,4 @@
-namespace API.Controllers;
+namespace Shared.Models.Responses;
 
 public class AuthenticationResponse
 {
