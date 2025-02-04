@@ -157,7 +157,7 @@ using (var scope = app.Services.CreateScope())
         "Admin",
         "per.friis@friisconsult.com",
         "per.friis@friisconsult.com",
-        "Admin1234?");
+        "addYourOwnPassword123?");
 }
 
 // Configure the HTTP request pipeline.
